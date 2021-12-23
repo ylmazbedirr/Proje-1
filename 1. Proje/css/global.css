@@ -1,0 +1,110 @@
+/* Text  */
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark-blue {
+    background: #336ea2;
+   
+}
+
+.bg-light-blue {
+    background: #336ea2;
+  
+}
+
+
+/* Buttons */
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    background: #366ea2;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    color: #366ea2;
+    background: #333;
+    border: 0.5px solid #366ea2;
+    transform: scale(0.9);
+
+}
+
+.btn-dark {
+    background: #333;
+}
+.btn-dark:hover {
+    color: #333;
+    background: #fff;
+    border: 0.5px solid #333;
+
+}
+.btn-block {
+    width: 100%;
+    text-align: center;
+ /*    HOVER        */
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-block:hover {
+    transform: scale(0.9);
+}
+
+
+/* Container */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Forms */
+
+.form-group {
+     padding: 0.25rem 0;
+}
+.form-group label {
+    display: block;
+  
+    
+}
+.form-control {
+    width: 100%;
+    padding: 0.4rem;;
+    font-size: 1.rem;
+    resize: none;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.form-control:hover {
+    transform: scale(0.9,1);
+}
+
+.boşluk {
+       text-align: center;
+      border-bottom: 2px solid gray;
+  /* */    position: relative;       /* */ 
+      top: 15px;
+}
+
+
